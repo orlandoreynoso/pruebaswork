@@ -7,23 +7,30 @@ body
 	box-sizing: border-box
 	width: var(--sizem)
 	padding: 20px
-	position: relative
 	.list-contenido:nth-child(1)
 		width: calc(var(--sizem)/2)
 		border: 1px solid red
 		margin-bottom: 20px
+		height: 500px
+		float: left
 	.list-contenido:nth-child(2)
-		width: calc(var(--sizem)/3)-5%
+		width: 33.33337%
 		border: 1px solid green
+		height: 180px
+		float: right
 	.list-contenido:nth-child(3)
-		width: calc(var(--sizem)/3)-5%
+		width: 33.33337%
 		border: 1px solid blue
+		height: 180px
+		float: right
 	.list-contenido
 		width: calc(var(--sizem)/4)
+		height: 250px
 		a
-			display: block			
+			display: block
+			height: 100%
 			img
-				height: auto
+				height: 100%
 				width: 100%
 .contenedor-superior
 	display: flex
