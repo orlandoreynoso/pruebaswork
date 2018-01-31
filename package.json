@@ -18,5 +18,13 @@
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orlandoreynoso/pruebaswork.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orlandoreynoso/pruebaswork/issues"
+  },
+  "homepage": "https://github.com/orlandoreynoso/pruebaswork#readme",
   "description": ""
 }

@@ -25,7 +25,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
-//var sass        = require('gulp-sass');
+var sass        = require('gulp-sass');
 
 
 
@@ -84,13 +84,13 @@ gulp.task('serve', function() {
 }); */
 
 // Compile sass into CSS & auto-inject into browsers
-/*gulp.task('sass', function() {
+gulp.task('sass', function() {
   return gulp.src("sass/estilo.sass")
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest("./css"))
     .pipe(browserSync.stream());
 });
-*/
+
 
 gulp.task('watchMeJs',function(){
 	gulp.watch('./js/*.js',['tareaMinify'], function(){
@@ -100,7 +100,7 @@ gulp.task('watchMeJs',function(){
 
 //gulp.task('default', ['sass', 'serve']);
 
-gulp.task('default',['browser-sync','watchMeJs'],function(done){
+gulp.task('default',['browser-sync','watchMeJs','sass'],function(done){
 	console.log('ejecutando watch wuju....');
   browserSync.reload();
   done();
