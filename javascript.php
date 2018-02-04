@@ -16,6 +16,6 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et alias, nulla odio soluta sunt pariatur ullam, tempore deleniti distinctio inventore recusandae fuga facere delectus veniam voluptatum nostrum dignissimos. Modi, laborum.</p>
 	</div>
 </div>
-<script src="js/fechas.js"></script>
+<script src="js/wobjetc.js"></script>
 </body>
 </html>
